@@ -1,0 +1,134 @@
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-tabs__tab-list {
+  /*border-bottom: 1px solid #aaa;*/
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  color: black;
+  display: inline-block;
+  /*border: 1px solid transparent;
+  border-bottom: none;*/
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+
+  /*my style*/
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+
+
+  cursor: pointer;
+  outline: 0;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  color: #fabd2f;
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+  /*border-color: #aaa;*/
+  color: black;
+  /*border-radius: 5px 5px 0 0;*/
+
+  /*my style*/
+  background-color: #fabd2f;
+  color: #fff;
+  outline: none;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  /*box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);*/
+  outline: none;
+}
+
+.react-tabs__tab:hover{
+  color: #fff;
+  background-color: #fabd2f;
+  /*border-color: #4299e1;*/
+}
+
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+
+
+.tab-icon {
+  /*font-size: 4rem;*/
+  font-size: 4vw;
+}
+
+.tab-text {
+  font-size: 1.3rem;
+  padding-left: 0.3rem;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.btnn {
+  cursor: pointer;
+  outline: 0;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  color: #0d6efd;
+  /*border-color: #0d6efd;*/
+}
+
+.btnn:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btnn:focus {
+  background-color: #0d6efd;
+  color: #fff;
+  outline: none;
+}
