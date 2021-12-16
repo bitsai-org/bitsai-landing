@@ -1,9 +1,3 @@
-@font-face {
-  font-family: 'ReggaeOne';
-  src: local('ReggaeOne'), url(../fonts/ReggaeOne-Regular.ttf) format('truetype');
-}
-
 html {
   scroll-behavior:smooth
 }
-

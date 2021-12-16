@@ -1,32 +1,17 @@
 import React from 'react'
 import Button from '../Button'
 
-import OwlSvg from '../../assets/owl-only.svg'
-
 const Header = () => (
   <header className="sticky top-0 z-10 bg-white shadow">
     <div className="container flex flex-col items-center justify-between px-8 py-4 mx-auto sm:flex-row">
       <a href="/#main">
-        <div
-          className="flex items-center text-2xl"
-          style={{fontFamily: 'ReggaeOne'}}
-        >
-          <OwlSvg
-            style={{
-              width: '3rem',
-              height: '3rem',
-              marginRight: '0.6rem',
-            }}
-          />
-          <p
-            style={{
-              color: '#fabd2f',
-              userSelect: 'none'
-            }}
-          >
-            BitSai
-          </p>
-        </div>
+        <img
+          src="owl-bitsai.png"
+          alt="bitsai-logo"
+          style={{
+            height: '3rem'
+          }}
+        />
       </a>
       <div className="flex items-center">
         <div className="flex mt-4 sm:mt-0">
