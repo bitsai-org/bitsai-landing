@@ -61,16 +61,16 @@ const Footer = () => (
             <a
               className="font-bold"
               target="_blank"
-              href="https://github.com/bitsai-org/bitsai/blob/mainnet/LICENSE.md"
+              href="https://github.com/bitsai-org/bitsai/blob/mainnet/LICENSE.md" rel="noreferrer"
             >
               License
             </a>
           </li>
           <li>
-            <a 
-              className="font-bold" 
+            <a
+              className="font-bold"
               target="_blank"
-              href="https://github.com/bitsai-org"
+              href="https://github.com/bitsai-org" rel="noreferrer"
             >
               Github Repositories
             </a>

@@ -8,25 +8,24 @@ import Features from '../components/sections/Features'
 import IllustrationFeatures from '../components/sections/IllustrationFeatures'
 import Download from '../components/sections/Download'
 
-import OwlSvg from '../assets/owl-only.svg'
+//import OwlSvg from '../assets/owl-only.svg'
 
 import '../css/layout.css'
 
 const TITLE =
- 'BitSai - Bitcoin Wallet'
+  'BitSai - Bitcoin Wallet'
 
 const DESCRIPTION =
-'A cross-platform, modern, and open source Bitcoin wallet for the masses.'
+  'A cross-platform, modern, and open source Bitcoin wallet for the masses.'
 
 const Index = () => (
   <Layout>
     <Helmet>
       <title>BitSai - Bitcoin Wallet</title>‍
       <meta name="description" content={DESCRIPTION}/>
-
       <meta property="og:title" content={TITLE} />
       <meta property="og:description" content={DESCRIPTION} />
-      <meta property="og:image" content={OwlSvg}/>
+      {/*<meta property="og:image" content={OwlSvg}/>*/}
       <meta property="og:url" content="https://bitsai.co" />
       <meta property="og:site_name" content={TITLE} />
       <meta property="og:locale" content="en_US" />
@@ -34,10 +33,16 @@ const Index = () => (
 
       <meta name="twitter:title" content={TITLE} />
       <meta name="twitter:description" content={DESCRIPTION} />
-      <meta name="twitter:card" content={OwlSvg} />
+      {/*<meta name="twitter:card" content={OwlSvg} />*/}
       <meta name="twitter:site" content="Firas" />
       <meta name="twitter:creator" content="Firas" />
-      <meta name="twitter:image" content={OwlSvg} />
+      {/*<meta name="twitter:image" content={OwlSvg} />*/}
+
+      <script
+        data-goatcounter="https://bitsai.goatcounter.com/count"
+        async
+        src="//gc.zgo.at/count.js"
+      ></script>
     </Helmet>
 
     <Hero />

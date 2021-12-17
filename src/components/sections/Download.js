@@ -94,7 +94,7 @@ const Download = () => (
                 (eg. real btc in mainnet), check&nbsp;
                 <a
                   target="_blank"
-                  href="https://github.com/bitsai-org/bitsai/blob/mainnet/LICENSE.md"
+                  href="https://github.com/bitsai-org/bitsai/blob/mainnet/LICENSE.md" rel="noreferrer"
                 >
                   LICENSE
                 </a>.
