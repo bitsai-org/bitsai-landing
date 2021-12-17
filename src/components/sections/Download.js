@@ -116,7 +116,7 @@ const Download = () => (
             <div className="flex items-center text-lg font-light leading-relaxed">
               <MdOpenInNew className="mr-1"/>
               <a
-                href="https://testnet.bitsai.co"
+                href="https://app.bitsai.co"
                 className="font-bold"
                 target="_blank" rel="noreferrer"
               >
