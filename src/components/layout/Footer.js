@@ -33,7 +33,7 @@ const Footer = () => (
           <div className="flex items-center ">
             <AiFillGithub className="mr-2"/>
             <a
-              href="https://github.com/Adoliin"
+              href="https://github.com/bitsai-org/bitsai"
               target="_blank"
               className="font-bold" rel="noreferrer"
             >
@@ -60,14 +60,19 @@ const Footer = () => (
           <li>
             <a
               className="font-bold"
-              href=""
+              target="_blank"
+              href="https://github.com/bitsai-org/bitsai/blob/mainnet/LICENSE.md"
             >
               License
             </a>
           </li>
           <li>
-            <a className="font-bold" href="">
-              Github Repository
+            <a 
+              className="font-bold" 
+              target="_blank"
+              href="https://github.com/bitsai-org"
+            >
+              Github Repositories
             </a>
           </li>
         </ul>

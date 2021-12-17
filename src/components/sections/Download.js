@@ -90,8 +90,14 @@ const Download = () => (
               where all btc are worthless).
               <br />
               <b>
-                With that said we are not responsible for any loss of funds
-                (eg. real btc in mainnet), check LICENSE*.
+                With that being said, we are not responsible for any loss of funds
+                (eg. real btc in mainnet), check&nbsp;
+                <a
+                  target="_blank"
+                  href="https://github.com/bitsai-org/bitsai/blob/mainnet/LICENSE.md"
+                >
+                  LICENSE
+                </a>.
               </b>
             </p>
 
