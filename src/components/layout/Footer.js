@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiFillGithub } from 'react-icons/ai'
 import { SiBuymeacoffee } from 'react-icons/si'
+import { FaBitcoin } from 'react-icons/fa'
 
 const Footer = () => (
   <footer
@@ -17,7 +18,7 @@ const Footer = () => (
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">About</h2>
         <p className="mt-1 mb-6 sm:mb-0">
-          BitSai is an open-source, not-for-profit project that is made with ♥ by <a
+          BitSai is an open-source project, made with ♥ by <a
             href="https://firas.cc"
             target="_blank"
             className="font-bold" rel="noreferrer"
@@ -30,7 +31,7 @@ const Footer = () => (
         <h2 className="text-lg font-semibold">Support Us</h2>
         <p className="mt-1 mb-6 sm:mb-0">
           You can support BitSai by
-          <div className="flex items-center ">
+          <div className="flex items-center mb-2">
             <AiFillGithub className="mr-2"/>
             <a
               href="https://github.com/bitsai-org/bitsai"
@@ -39,8 +40,8 @@ const Footer = () => (
             >
               contributing code
             </a>
-          </div> or
-          <div className="flex items-center ">
+          </div>
+          <div className="flex items-center mb-2">
             <SiBuymeacoffee className="mr-2"/>
             <a
               href="https://www.buymeacoffee.com/Adoliin"
@@ -48,6 +49,16 @@ const Footer = () => (
               className="font-bold" rel="noreferrer"
             >
               buying Firas a cup of coffee
+            </a>
+          </div>
+          <div className="flex items-center ">
+            <FaBitcoin className="mr-2"/>
+            <a
+              href="https://github.com/bitsai-org/bitsai#donating"
+              target="_blank"
+              className="font-bold" rel="noreferrer"
+            >
+              donating crypto
             </a>
           </div>
         </p>
@@ -72,7 +83,7 @@ const Footer = () => (
               target="_blank"
               href="https://github.com/bitsai-org" rel="noreferrer"
             >
-              Github Repositories
+              Source Code
             </a>
           </li>
         </ul>
