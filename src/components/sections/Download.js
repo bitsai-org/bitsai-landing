@@ -85,7 +85,7 @@ const Download = () => (
             <p className="mt-2 text-lg font-light leading-relaxed">
               To start using the app just open the mainnet or testnet link below (it is that easy)
               <br/>
-              <b>Disclaimer:</b> BitSai is still in BETA so it is highly
+              <b>Disclaimer:</b> BitSai is still in ALPHA so it is highly
               recommended to use it in testnet only (testnet is a bitcoin network
               where all btc are worthless).
               <br />
