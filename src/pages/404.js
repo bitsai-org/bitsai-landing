@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout/Layout'
 
-//import OwlSvg from '../assets/owl-only.svg'
+import HomeThumbnail from '../images/bitsai-og.png'
 
 const TITLE =
   'BitSai - 404 NOT FOUND'
@@ -13,22 +13,25 @@ const DESCRIPTION =
 const NotFound = () => (
   <Layout>
     <Helmet>
-      <title>BitSai - Bitcoin Wallet</title>‍
+      <title>{TITLE}</title>
       <meta name="description" content={DESCRIPTION}/>
+
       <meta property="og:title" content={TITLE} />
       <meta property="og:description" content={DESCRIPTION} />
-      {/*<meta property="og:image" content={OwlSvg}/>*/}
+      <meta property="og:image" content={HomeThumbnail} />
+      <meta property="og:image:alt" content="bitsai-home-page"/>
       <meta property="og:url" content="https://bitsai.co" />
       <meta property="og:site_name" content={TITLE} />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="Landing page" />
 
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content={`https://bitsai.co${HomeThumbnail}`} />
+      <meta name="twitter:image:alt" content="bitsai-home-page" />
       <meta name="twitter:title" content={TITLE} />
       <meta name="twitter:description" content={DESCRIPTION} />
-      {/*<meta name="twitter:card" content={OwlSvg} />*/}
-      <meta name="twitter:site" content="Firas" />
+      <meta name="twitter:site" content="bitsai" />
       <meta name="twitter:creator" content="Firas" />
-      {/*<meta name="twitter:image" content={OwlSvg} />*/}
 
       <script
         data-goatcounter="https://bitsai.goatcounter.com/count"
