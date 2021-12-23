@@ -21,7 +21,7 @@ const Footer = () => (
           BitSai is an open-source project, made with ♥ by <a
             href="https://firas.cc"
             target="_blank"
-            className="font-bold" rel="noreferrer"
+            className="font-bold"
           >
             Firas
           </a>.
@@ -36,7 +36,7 @@ const Footer = () => (
             <a
               href="https://github.com/bitsai-org/bitsai"
               target="_blank"
-              className="font-bold" rel="noreferrer"
+              className="font-bold"
             >
               contributing code
             </a>
@@ -46,7 +46,7 @@ const Footer = () => (
             <a
               href="https://www.buymeacoffee.com/Adoliin"
               target="_blank"
-              className="font-bold" rel="noreferrer"
+              className="font-bold"
             >
               buying Firas a cup of coffee
             </a>
@@ -56,7 +56,7 @@ const Footer = () => (
             <a
               href="https://github.com/bitsai-org/bitsai#donating"
               target="_blank"
-              className="font-bold" rel="noreferrer"
+              className="font-bold"
             >
               donating crypto
             </a>
@@ -72,7 +72,7 @@ const Footer = () => (
             <a
               className="font-bold"
               target="_blank"
-              href="https://github.com/bitsai-org/bitsai/blob/mainnet/LICENSE.md" rel="noreferrer"
+              href="https://github.com/bitsai-org/bitsai/blob/mainnet/LICENSE.md"
             >
               License
             </a>
@@ -81,7 +81,7 @@ const Footer = () => (
             <a
               className="font-bold"
               target="_blank"
-              href="https://github.com/bitsai-org" rel="noreferrer"
+              href="https://github.com/bitsai-org"
             >
               Source Code
             </a>

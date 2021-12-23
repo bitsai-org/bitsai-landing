@@ -94,7 +94,7 @@ const Download = () => (
                 (eg. real btc in mainnet), check&nbsp;
                 <a
                   target="_blank"
-                  href="https://github.com/bitsai-org/bitsai/blob/mainnet/LICENSE.md" rel="noreferrer"
+                  href="https://github.com/bitsai-org/bitsai/blob/mainnet/LICENSE.md"
                 >
                   LICENSE
                 </a>.
@@ -109,7 +109,7 @@ const Download = () => (
               <a
                 href="https://testnet.bitsai.co"
                 className="font-bold"
-                target="_blank" rel="noreferrer"
+                target="_blank"
               >
                 testnet.bitsai.co
               </a>
@@ -124,7 +124,7 @@ const Download = () => (
               <a
                 href="https://app.bitsai.co"
                 className="font-bold"
-                target="_blank" rel="noreferrer"
+                target="_blank"
               >
                 app.bitsai.co
               </a>
