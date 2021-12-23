@@ -18,14 +18,15 @@ const Footer = () => (
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">About</h2>
         <p className="mt-1 mb-6 sm:mb-0">
-          BitSai is an open-source project, made with ♥ by <a
+          BitSai is an open-source project, made with ♥ by
+        </p>
+          <a
             href="https://firas.cc"
             target="_blank"
             className="font-bold"
           >
-            Firas
-          </a>.
-        </p>
+            Firas B. Mefteh
+          </a>
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Support Us</h2>
