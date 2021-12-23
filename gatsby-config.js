@@ -1,6 +1,9 @@
 module.exports = {
   plugins: [
     {
+      resolve: 'gatsby-plugin-react-helmet',
+    },
+    {
       resolve: 'gatsby-theme-codebushi',
       options: {
         tailwindConfig: 'tailwind.config.js'
@@ -24,9 +27,6 @@ module.exports = {
         display: 'standalone',
         icon: 'src/assets/owl-only.svg',
       },
-    },
-    {
-      resolve: 'gatsby-plugin-react-helmet',
     },
   ]
 }
