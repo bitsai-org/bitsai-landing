@@ -26,7 +26,8 @@ const Index = () => (
 
       <meta property="og:title" content={TITLE} />
       <meta property="og:description" content={DESCRIPTION} />
-      <meta property="og:image" content={HomeThumbnail} />
+      {/*<meta property="og:image" content={HomeThumbnail} />*/}
+      <meta name="og:image" content={`https://bitsai.co${HomeThumbnail}`} />
       <meta property="og:image:alt" content="bitsai-home-page"/>
       <meta property="og:url" content="https://bitsai.co" />
       <meta property="og:site_name" content={TITLE} />
